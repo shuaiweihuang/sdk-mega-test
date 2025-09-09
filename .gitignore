@@ -1,0 +1,16 @@
+# Editor and IDE stuff
+*.user
+*~
+.vs
+*.vscode
+*.autosave
+
+# clangd index
+.cache
+
+# Building stuff
+build-*Debug
+build-*Release
+/third_party/crashlytics*h
+*.toml
+/CMakeUserPresets.json
